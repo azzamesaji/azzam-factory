@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azzam Brands Factory | ABF</title>
+    <style>
+        body {
+            background-color: #05070a;
+            color: #e6edf3;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+            background: radial-gradient(circle at center, #161b22 0%, #05070a 100%);
+        }
+
+        /* تنسيق الشعار الدائري الاحترافي */
+        .main-logo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%; /* هذا سيجعل الصورة دائرية تماماً */
+            box-shadow: 0 0 40px rgba(88, 166, 255, 0.3);
+            margin-bottom: 20px;
+            transition: 0.5s;
+            object-fit: cover; /* لضمان عدم تمدد الصورة */
+        }
+
+        .main-logo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 60px rgba(188, 140, 255, 0.5);
+        }
+
+        .tagline {
+            color: #8b949e;
+            font-size: 1.1rem;
+            margin-top: 10px;
+        }
+
+        .stickers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 20px;
+            padding: 20px;
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: #58a6ff;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .price {
+            color: #3fb950;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .buy-btn {
+            background-color: #f0f6fc;
+            color: #0d1117;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logoaz.jpeg" alt="ABF Logo" class="main-logo">
+        <p class="tagline">We create professional identities for valued clients.</p>
+        <p style="color: #58a6ff;">Instagram: @azzambrands16</p>
+    </header>
+
+    <div class="stickers-grid">
+        <div class="card">
+            <img src="sticker1.png.png" alt="Khaleeji Burger">
+            <h3>Khaleeji Burger</h3>
+            <p class="price">$0.50</p>
+            <a href="https://www.instagram.com/azzambrands16" target="_blank" class="buy-btn">Order Now</a>
+        </div>
+
+        <div class="card">
+            <img src="sticker2.png.png" alt="Karak King">
+            <h3>Karak King</h3>
+            <p class="price">$0.50</p>
+            <a href="https://www.instagram.com/azzambrands16" target="_blank" class="buy-btn">Order Now</a>
+        </div>
+
+        <div class="card">
+            <img src="sticker5.png" alt="Clever Camel">
+            <h3>Clever Camel</h3>
+            <p class="price">$0.50</p>
+            <a href="https://www.instagram.com/azzambrands16" target="_blank" class="buy-btn">Order Now</a>
+        </div>
+    </div>
+
+</body>
+</html>
